@@ -1,173 +1,209 @@
 
-.blank{
+.blank {
     font-family: Montserrat;
     text-transform: uppercase;
-    border:grey solid 2px;
-    padding:5px 10px 10px 10px;
+    border: grey solid 2px;
+    padding: 5px 10px 10px 10px;
     border-radius: 5px;
-    width: 220px ;
+    width: 220px;
     height: 100px;
     background: linear-gradient(45deg, #EECFBA, #C5DDE8)
 }
-.logo{
+
+.logo {
     width: 75px;
     float: left;
     padding-right: 10px;
 }
 
-.logo__left{
+.logo__left {
     float: left;
     padding: 10px;
 }
-.logo__right{
+
+.logo__right {
     float: right;
     padding: 10px;
 }
-.hafman{
-color: green;
+
+.hafman {
+    color: green;
 }
 
-.abbr__style{
+.abbr__style {
     text-decoration: none;
 }
-.task1{
+
+.task1 {
     width: 856px;
 }
-.lowreg{
+
+.lowreg {
     color: blue;
-    top: 2px;
-    font-size: 9px;
-    position: relative;
-    display: inline-block;
-    font-weight: bold;
+
 }
-.commonreg{
-color: blue;
-    font-style: italic;
-    font-size: 10px;
-    font-weight: bold;
+
+.test {
+    display: none;
 }
-.bg{
+
+.commonreg {
+    color: blue;
+    font-size: 13px;
+}
+
+.bg {
     background-color: #0d5825;
     color: white;
     height: 500px;
     font-size: 25px;
 }
-.bg blockquote{
-    padding-top:25px ;
+
+.bg blockquote {
+    padding-top: 25px;
 }
-blockquote footer{
+
+blockquote footer {
     font-style: italic;
 }
+
 blockquote p::before {
     content: '\201C';
 }
+
 blockquote p::after {
     content: '\201D';
 }
-.cards{
+
+.cards {
 
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 60px;
 }
+
 .cards img {
-position: relative;
+    position: relative;
 }
-.cards img:nth-child(3){
+
+.cards img:nth-child(3) {
     transform: rotate(10deg) translate(-42px, 21px);
     z-index: 3;
 }
-.cards img:nth-child(2){
+
+.cards img:nth-child(2) {
     transform: rotate(-5deg) translate(19px, 3px);
     z-index: 2;
 }
-.cards img:nth-child(1){
-    transform: rotate(-15deg) translate(79px,19px);
+
+.cards img:nth-child(1) {
+    transform: rotate(-15deg) translate(79px, 19px);
     z-index: 1;
 }
-.cards img:nth-child(1):hover{
+
+.cards img:nth-child(1):hover {
     transition: 0.3s;
-    transform: rotate(-15deg) translate(79px,0px);
+    transform: rotate(-15deg) translate(79px, 0px);
 }
+
 .cards img:nth-child(2):hover {
     transition: 0.3s;
     transform: rotate(-5deg) translate(19px, -16px);
 }
+
 .cards img:nth-child(3):hover {
     transition: 0.3s;
     transform: rotate(10deg) translate(-42px, -5px)
 }
-.blok1{
+
+.blok1 {
     margin-top: 10px;
     width: 76px;
     height: 76px;
     border: 1px solid grey;
     background-color: #EECFBA;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
-.blok1 img{
+
+.blok1 img {
     padding: 10px;
     float: left;
 }
-#blok1:hover img{
+
+#blok1:hover img {
     display: none;
 }
-.blok1:hover{
+
+.blok1:hover {
     width: 150px;
     height: 150px;
     z-index: 5;
 
 }
+
 .title1 {
     display: none;
 }
+
 .blok1:hover .title1 {
     display: inherit;
 }
-.task3{
+
+.task3 {
     height: 500px;
 }
+
 .bloks {
     display: flex;
     justify-content: left;
 
 }
-#blok2{
+
+#blok2 {
     margin-top: 48px;
     margin-left: 38px;
     position: absolute;
 
 }
-#blok2:hover img{
+
+#blok2:hover img {
     display: none;
 }
+
 .title2 {
     display: none;
 }
+
 #blok2:hover .title2 {
     display: inherit;
     transition: 0.3s;
 }
-#blok3:hover img{
-    display: none;}
-#blok3{
-    margin-top:86px;
+
+#blok3:hover img {
+    display: none;
+}
+
+#blok3 {
+    margin-top: 86px;
     margin-left: 78px;
     position: absolute;
 }
+
 .title3 {
     display: none;
 }
+
 #blok3:hover .title3 {
     display: inherit;
     transition: 0.3s;
 }
-#blok4:hover img{
+
+#blok4:hover img {
     display: none;
 }
-#blok4{
+
+#blok4 {
     margin-top: 126px;
     margin-left: 118px;
     position: absolute;
@@ -176,6 +212,7 @@ position: relative;
 .title4 {
     display: none;
 }
+
 #blok4:hover .title4 {
     display: inherit;
     transition: 0.3s;
