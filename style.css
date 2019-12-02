@@ -9,45 +9,34 @@
     height: 100px;
     background: linear-gradient(45deg, #EECFBA, #C5DDE8)
 }
-/*Письмо бобу*/
 .logo {
     width: 75px;
     float: left;
     padding-right: 10px;
 }
+/*Письмо бобу*/
 
 .logo__left {
     float: left;
     padding: 10px;
 }
-
 .logo__right {
     float: right;
     padding: 10px;
 }
-
-.hafman {
+#hafman {
     color: green;
 }
-
 .abbr__style {
     text-decoration: none;
 }
-
 .task1 {
     width: 856px;
 }
-
-.lowreg {
-    color: blue;
-
-}
-
 .test {
     display: none;
 }
-
-.commonreg {
+.task1 span,sub {
     color: blue;
     font-size: 13px;
 }

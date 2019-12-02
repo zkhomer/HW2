@@ -26,21 +26,21 @@
     <img alt="wait pls" class="logo__left" src="img/a-level-ico.png" height="55" width="172"/>
 
     <p> Алиса хочет отправить важное сообщение Бобу</p>
-    <p> Сообщение a = ( a<sub class="lowreg">1</sub>, ..., a<sub class="lowreg">n</sub> ) является
+    <p> Сообщение a = ( a<sub>1</sub>, ..., a<sub>n</sub> ) является
         последовательностью положительных чисел ( символов )</p>
-    <p>Для сжатия сообщения Алиса хочет использовать <span class="hafman"><abbr class="abbr__style"
-                                                                                title="какой-то текст не могу разлядеть на примере ))) "> двоичный код Хаффмана</abbr> </span>
+    <p>Для сжатия сообщения Алиса хочет использовать <span id="hafman"><abbr class="abbr__style"
+                                                                             title="какой-то текст не могу разлядеть на примере ))) "> двоичный код Хаффмана</abbr> </span>
     </p>
     <p> Напомним, что двоичный код Хаффмана, или <i><b>двоичный префиксно-свободный код</b></i> — это функция <span
-            class="commonreg">f </span>, которая сопоставляет каждому символу сообщения двоичные строки (то есть строки,
+    >f </span>, которая сопоставляет каждому символу сообщения двоичные строки (то есть строки,
         состоящие только из символов «0» и «1») таким образом, что ни для какой пары различных символов a<sub
-                class="lowreg">i</sub> и a<sub class="lowreg">j</sub> строка <span class="commonreg">f </span>(
-        a<sub class="lowreg">i</sub> )
-        не является префиксом <span class="commonreg">f </span>( a<sub class="lowreg">J</sub> ) (и наоборот)
-        Результатом кодирования сообщения a<sub class="lowreg">1</sub>, a<sub class="lowreg">2</sub>, ..., a<sub
-                class="lowreg">n</sub> является конкатенация кодов отдельных символов, то есть строка <span
-                class="commonreg">f </span>( a<sub class="lowreg">1</sub> )<span class="commonreg">f </span>( a<sub
-                class="lowreg">2</sub> )... <span class="commonreg">f </span>( a<sub class="lowreg">n</sub> )
+        >i</sub> и a<sub>j</sub> строка <span>f </span>(
+        a<sub>i</sub> )
+        не является префиксом <span>f </span>( a<sub>J</sub> ) (и наоборот)
+        Результатом кодирования сообщения a<sub>1</sub>, a<sub>2</sub>, ..., a<sub
+        >n</sub> является конкатенация кодов отдельных символов, то есть строка <span
+        >f </span>( a<sub>1</sub> )<span>f </span>( a<sub
+        >2</sub> )... <span>f </span>( a<sub>n</sub> )
     </p>
     <p>
         Коды Хаффмана удобны тем, что закодированное сообщение можно легко и однозначно декодировать,
@@ -48,16 +48,16 @@
         <img alt="wait pls" class="logo__right" src="img/a-level-ico.png" height="55" width="172"/>
         Код обычно выбирается таким образом, чтобы минимизировать суммарную длину закодированного
         сообщения,
-        то есть длину строки <span class="commonreg">f </span>( a<sub class="lowreg">1</sub> )<span
-            class="commonreg">f </span>(
-        a<sub class="lowreg">2</sub> )... <span class="commonreg">f </span>( a <sub class="lowreg">n</sub> )
+        то есть длину строки <span>f </span>( a<sub>1</sub> )<span
+    >f </span>(
+        a<sub>2</sub> )... <span>f </span>( a <sub>n</sub> )
     </p>
     <p>
         Алиса не хочет посылать сообщение целиком, поскольку это слишком рискованно
     </p>
     Вместо этого она выбрала несколько частей сообщения и хочет отправить их по отдельности
     <p>
-        Для каждой выбранной подстроки a<sub class="lowreg">ki</sub>... a<sub class="lowreg">mi</sub> она хочет
+        Для каждой выбранной подстроки a<sub>ki</sub>... a<sub>mi</sub> она хочет
         найти минимальную длину этой подстроки, закодированной по Хаффману
     </p>
     <p> Помогите ей с этой задачей</p>
