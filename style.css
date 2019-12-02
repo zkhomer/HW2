@@ -1,6 +1,6 @@
-
+/*Когда нибудь все коменты будут на английском ) */
+/*Карточка*/
 .blank {
-    font-family: Montserrat;
     text-transform: uppercase;
     border: grey solid 2px;
     padding: 5px 10px 10px 10px;
@@ -9,7 +9,7 @@
     height: 100px;
     background: linear-gradient(45deg, #EECFBA, #C5DDE8)
 }
-
+/*Письмо бобу*/
 .logo {
     width: 75px;
     float: left;
@@ -51,7 +51,7 @@
     color: blue;
     font-size: 13px;
 }
-
+/*крты и цитата*/
 .bg {
     background-color: #0d5825;
     color: white;
@@ -88,7 +88,7 @@ blockquote p::after {
 }
 
 .cards img:nth-child(3) {
-    transform: rotate(10deg) translate(-42px, 21px);
+    transform: rotate(10deg) translate(-42px, 21px); /*ну прям очень понравилось пользоваться псевдоклассами*/
     z-index: 3;
 }
 
@@ -116,7 +116,7 @@ blockquote p::after {
     transition: 0.3s;
     transform: rotate(10deg) translate(-42px, -5px)
 }
-
+/*Блоки с свинками :)*/
 .blok1 {
     margin-top: 10px;
     width: 76px;
